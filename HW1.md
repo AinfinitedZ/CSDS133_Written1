@@ -16,14 +16,23 @@ Answer:
 4. Consider vectors of size 2. Show that the Euclidean norm of such vectors satisfy the three properties of a norm.
 
 Answer: 
+$(\sqrt{\Sigma_{i = 1}^{n} x_i^2})^2$ 
+Nonnegativity:
+Definitness:
+Triangle Inequality:
 
 5.  Consider vectors of size 2. Show that the Euclidean distance between such vectors satisfy the three properties of a metric.
 
 Answer: 
+$d(u,v) = d(v,u)$
+$d(u,v) = 0\Leftrightarrow  u=v \& d(u,v) \geq 0$
+$d(u,v) \leq d(u,y) + d(v,y)$
+$d(u,v) = \|u-v\|_2 = (\sqrt{(u-v)\cdot(u-v)})^2$
 
 6. Consider the vectors $[1, 2, 3]$ and $[-1, -1, 0]$. Compute the Manhattan norms of each vector and the Manhattan distance between them. 
 
 Answer: 
+$\|x\|_1 = \Sigma_{i = 1}^{n} \vert{x_i}\vert$
 
 7. Are the following vectors linearly independent? $[2, -1, 3]$, $[1, 1, -2]$ and $[3, -3, 8]$?
 
